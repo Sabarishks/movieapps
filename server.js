@@ -8,6 +8,11 @@ app.use(cors());
 app.use(express.json());
 app.use('/api', authRoutes);
 
+app.get('/Home' ,(req, res) =>{
+      console.log("welcome")
+})
+
+
 mongoose.connect('mongodb+srv://sabarishkssampath:987654321@movieapp.c5me2sj.mongodb.net/?retryWrites=true&w=majority&appName=movieapp', {
   useNewUrlParser: true,
   useUnifiedTopology: true
