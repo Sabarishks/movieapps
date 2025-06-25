@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/api', authRoutes);
 
 app.get('/Home' ,(req, res) =>{
-      console.log("welcome")
+      res.send("Welcome to the page");
 })
 
 
