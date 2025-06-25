@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/api', authRoutes);
 
-mongoose.connect('mongodb://localhost:27017/pt_project', {
+mongoose.connect('mongodb+srv://sabarishkssampath:987654321@movieapp.c5me2sj.mongodb.net/?retryWrites=true&w=majority&appName=movieapp', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log("MongoDB connected"))
