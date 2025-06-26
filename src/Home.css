@@ -1,0 +1,65 @@
+.home-container {
+  height: 100vh;
+  background: url('c.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  max-width: 600px;
+}
+
+.app-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.signup-btn {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.search-btn {
+ background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.signup-btn:hover,
+.search-btn:hover,
+.login-btn:hover {
+  opacity: 0.85;
+}
