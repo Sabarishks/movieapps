@@ -20,3 +20,4 @@ mongoose.connect('mongodb+srv://sabarishkssampath:987654321@movieapp.c5me2sj.mon
   .catch(err => console.error(err));
 
 app.listen(5000, () => console.log("Server running on port 5000"));
+ 
